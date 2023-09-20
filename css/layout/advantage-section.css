@@ -61,7 +61,7 @@
     }
 
     .advantages-item {
-        width: calc((100% - 72 * 1) / 2);
+        width: calc((100%-24px)/2);
     }
 
     .advantages-icons-container {
