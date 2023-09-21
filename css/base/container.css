@@ -1,7 +1,6 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    /* padding: 0 15px 0 15px; */
 }
 
 
@@ -9,9 +8,6 @@
 @media screen and (min-width:320px) {
     .container {
         width: 288px;
-        /* padding: 0 16px 0 16px; */
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
@@ -19,17 +15,13 @@
 @media screen and (min-width:768px) {
     .container {
         width: 736px;
-        padding: 0 16px 0 16px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1158px) {
     .container {
         width: 1158px;
         padding: 0 15px 0 15px;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 }

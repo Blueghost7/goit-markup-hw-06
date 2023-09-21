@@ -126,13 +126,13 @@
             </div>
         </section>
         <!--Our team section-->
-        <!-- <section class="our-team-section">
+        <section class="our-team-section">
             <div class="container">
                 <h2 class="our-team-section-title">Our Team</h2>
                 <ul class="our-team-section-list">
                     <li class="our-team-section-item">
-                        <img class="our-team-section-image" src="./images/mark-min.jpg" alt="picture of a smiling man"
-                            width="264" height="260">
+                        <img class="our-team-section-image" srcset="./images/our-team/mark@2x.jpg 2x"
+                            src="./images/our-team/mark.jpg" alt="picture of a smiling man" width="264" height="260">
                         <div class="our-team-container">
                             <h3 class="our-team-section-item-title">Mark Guerrero</h3>
                             <p class="our-team-section-item-paragraph">Product Designer</p>
@@ -174,8 +174,8 @@
                         </div>
                     </li>
                     <li class="our-team-section-item">
-                        <img class="our-team-section-image" src="./images/tom-min.jpg" alt="picture of a smiling man"
-                            width="264" height="260">
+                        <img class="our-team-section-image" srcset="./images/our-team/tom@2x.jpg 2x"
+                            src="./images/our-team/tom.jpg" alt="picture of a smiling man" width="264" height="260">
                         <div class="our-team-container">
                             <h3 class="our-team-section-item-title">Tom Ford</h3>
                             <p class="our-team-section-item-paragraph">Frontend Developer</p>
@@ -217,8 +217,8 @@
                         </div>
                     </li>
                     <li class="our-team-section-item">
-                        <img class="our-team-section-image" src="./images/camila-min.jpg" alt="picture of smiling woman"
-                            width="264" height="260">
+                        <img class="our-team-section-image" srcset="./images/our-team/camila@2x.jpg 2x"
+                            src="./images/our-team/camila.jpg" alt="picture of smiling woman" width="264" height="260">
                         <div class="our-team-container">
                             <h3 class="our-team-section-item-title">Camila Garcia</h3>
                             <p class="our-team-section-item-paragraph">Marketing</p>
@@ -260,8 +260,8 @@
                         </div>
                     </li>
                     <li class="our-team-section-item">
-                        <img class="our-team-section-image" src="./images/daniel-min.jpg" alt="picture of a smiling man"
-                            width="264" height="260">
+                        <img class="our-team-section-image" srcset="./images/our-team/daniel@2x.jpg 2x"
+                            src="./images/our-team/daniel.jpg" alt="picture of a smiling man" width="264" height="260">
                         <div class="our-team-container">
                             <h3 class="our-team-section-item-title">Daniel Wilson</h3>
                             <p class="our-team-section-item-paragraph">UI Designer</p>
@@ -305,17 +305,23 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- Our portfolio section -->
-        <!-- <section class="our-portfolio-section" id="portfolio">
+        <section class="our-portfolio-section" id="portfolio">
             <div class="container">
                 <h2 class="our-portfolio-section-title">Our Portfolio</h2>
                 <ul class="our-portfolio-section-list">
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-img-wraper">
-
-                            <img class="our-portfolio-img" src="./images/our-portfolio/bakcing-min.jpg"
-                                alt="bank app example" width="360" height="300">
+                            <img class="our-portfolio-img" srcset="../images/our-portfolio/mobile/bakcing-mobile.jpg 288w,
+                            ../images/our-portfolio/mobile/bakcing-mobile@2x.jpg 576w,
+                            ../images/our-portfolio/tablet/bakcing-tablet.jpg 356w,
+                            ../images/our-portfolio/tablet/bakcing-tablet@2x.jpg 712w,
+                            ../images/our-portfolio/desktop/bakcing-desktop.jpg 360w,
+                            ../images/our-portfolio/desktop/bakcing-desktop@2x.jpg 720w"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 320px) 288px"
+                                src="./images/our-portfolio/mobile/bakcing-mobile.jpg" alt="bank app example"
+                                width="360" height="300">
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                 Tracker
@@ -332,8 +338,15 @@
 
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-img-wraper">
-                            <img class="our-portfolio-img" src="./images/our-portfolio/paymet-min.jpg"
-                                alt="payment by phone" width="360" height="300">
+                            <img class="our-portfolio-img" srcset="../images/our-portfolio/mobile/paymet-mobile.jpg 288w,
+                            ../images/our-portfolio/mobile/paymet-mobile@2x.jpg 576w,
+                            ../images/our-portfolio/tablet/paymet-tablet.jpg 356w,
+                            ../images/our-portfolio/tablet/paymet-tablet@2x.jpg 712w,
+                            ../images/our-portfolio/desktop/paymet-desktop.jpg 360w,
+                            ../images/our-portfolio/desktop/paymet-desktop@2x.jpg 720w"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 320px) 288px"
+                                src="./images/our-portfolio/mobile/paymet-mobile.jpg" alt="payment by phone" width="360"
+                                height="300">
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                 Tracker
@@ -350,7 +363,14 @@
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-img-wraper">
 
-                            <img class="our-portfolio-img" src="./images/our-portfolio/meditation-min.jpg"
+                            <img class="our-portfolio-img" srcset="../images/our-portfolio/mobile/meditation-mobile.jpg 288w,
+                            ../images/our-portfolio/mobile/meditation-mobile@2x.jpg 576w,
+                            ../images/our-portfolio/tablet/meditation-tablet.jpg 356w,
+                            ../images/our-portfolio/tablet/meditation-tablet@2x.jpg 712w,
+                            ../images/our-portfolio/desktop/meditation-desktop.jpg 360w,
+                            ../images/our-portfolio/desktop/meditation-desktop@2x.jpg 720w"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 320px) 288px"
+                                src="./images/our-portfolio/mobile/meditation-mobile.jpg"
                                 alt="laptop and phone with app return to normalcy" width="360" height="300">
                             <p class="overlay"> 14 Stylish and User-Friendly App Design Concepts · Task Manager App
                                 · Calorie
@@ -367,8 +387,15 @@
 
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-img-wraper">
-                            <img class="our-portfolio-img" src="./images/our-portfolio/taxi-min.jpg" alt="man driving"
-                                width="360" height="300">
+                            <img class="our-portfolio-img" srcset="../images/our-portfolio/mobile/taxi-mobile.jpg 288w,
+                            ../images/our-portfolio/mobile/taxi-mobile@2x.jpg 576w,
+                            ../images/our-portfolio/tablet/taxi-tablet.jpg 356w,
+                            ../images/our-portfolio/tablet/taxi-tablet@2x.jpg 712w,
+                            ../images/our-portfolio/desktop/taxi-desktop.jpg 360w,
+                            ../images/our-portfolio/desktop/taxi-desktop@2x.jpg 720w"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 320px) 288px"
+                                src="./images/our-portfolio/mobile/taxi-mobile.jpg" alt="man driving" width="360"
+                                height="300">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie
                                 Tracker
@@ -383,7 +410,14 @@
 
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-img-wraper">
-                            <img class="our-portfolio-img" src="./images/our-portfolio/illustrations-min.jpg"
+                            <img class="our-portfolio-img" srcset="../images/our-portfolio/mobile/illustrations-mobile.jpg 288w,
+                            ../images/our-portfolio/mobile/illustrations-mobile@2x.jpg 576w,
+                            ../images/our-portfolio/tablet/illustrations-tablet.jpg 356w,
+                            ../images/our-portfolio/tablet/illustrations-tablet@2x.jpg 712w,
+                            ../images/our-portfolio/desktop/illustrations-desktop.jpg 360w,
+                            ../images/our-portfolio/desktop/illustrations-desktop@2x.jpg 720w"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 320px) 288px"
+                                src="./images/our-portfolio/mobile/illustrations-mobile.jpg"
                                 alt="phone screen illustrations" width="360" height="300">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie
@@ -399,8 +433,15 @@
 
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-img-wraper">
-                            <img class="our-portfolio-img" src="./images/our-portfolio/on-courses-min.jpg"
-                                alt="smiling women with phone" width="360" height="300">
+                            <img class="our-portfolio-img" srcset="../images/our-portfolio/mobile/on-courses-mobile.jpg 288w,
+                            ../images/our-portfolio/mobile/on-courses-mobile@2x.jpg 576w,
+                            ../images/our-portfolio/tablet/on-courses-tablet.jpg 356w,
+                            ../images/our-portfolio/tablet/on-courses-tablet@2x.jpg 712w,
+                            ../images/our-portfolio/desktop/on-courses-desktop.jpg 360w,
+                            ../images/our-portfolio/desktop/on-courses-desktop@2x.jpg 720w"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 320px) 288px"
+                                src="./images/our-portfolio/mobile/on-courses-mobile.jpg" alt="smiling women with phone"
+                                width="360" height="300">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie
                                 Tracker
@@ -414,11 +455,11 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
     </main>
     <!--Footer section-->
     <footer class="footer-section">
-        <!-- <div class="container footer-container">
+        <div class="container footer-container">
             <div class="footer-logo-container">
                 <a class="footer-section-logo link" href="./index.html">Web<span
                         class="footer-section-logotipe">Studio</span></a>
@@ -480,11 +521,11 @@
                     </button>
                 </Form>
             </div>
-        </div> -->
+        </div>
     </footer>
 
     <!-- backdrop with modal window -->
-    <!-- <div class="backdrop">
+    <div class="backdrop">
         <div class="modal">
             <button class="close-button button" type="button">
                 <svg class="close-btn-icon" width="8" height="8" aria-label="modal close icon">
@@ -543,70 +584,71 @@
                 <button class="order-form-button button" type="submit">Send</button>
             </form>
         </div>
-    </div> -->
+    </div>
     <!-- mobile-modal-window -->
-    <!-- <div class="mobile-menu-backdrop">
-        <div class="modal-mobil-menu">
-            <button class="mobile-menu-btn">
-                <use class="mobile-menu-close-icon" width="8" height="8">
+    <div class="mobile-menu-backdrop">
+        <div class="modal-mobile-menu">
+            <button class="mobile-menu-btn" type="button">
+                <svg class="mobile-menu-close-icon" width="8" height="8" aria-label="menu close icon">
                     <use href="./images/icons.svg#icon-modal-close"></use>
-                </use>
+                </svg>
             </button>
-            <nav class="mobile-menu-nav">
-                <ul class="mobile-nav">
-                    <li class="mobile-nav-list">
-                        <a class="mobile-nav-item link current" href="./index.html">Studio</a>
+            <div class="mobile-menu">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link link current" href="./index.html">Studio</a>
                     </li>
-                    <li class="mobile-nav-list">
-                        <a class="mobile-nav-item link" href="#portfolio">Portfolio</a>
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="mobile-nav-list">
-                        <a class="mobile-nav-item link" href="">Contacts</a>
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link link" href="">Contacts</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
             <address class="mobile-menu-address">
                 <ul class="mobile-menu-address-list">
-                    <li>
-                        <a class="mobile-menu-address-item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="mobile-menu-address-item">
+                        <a class="mobile-menu-address-link link" href="tel:+110001111111">+11 (000)
+                            111-11-11</a>
                     </li>
-                    <li>
-                        <a class="mobile-menu-address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    <li class="mobile-menu-address-item">
+                        <a class="mobile-menu-address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                 </ul>
             </address>
             <ul class="mobile-menu-icons-list">
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
+                <li class="menu-icons-item">
+                    <a class="menu-icons-link link" href="">
+                        <svg class="mobile-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
+                <li class="menu-icons-item">
+                    <a class="menu-icons-link link" href="">
+                        <svg class="mobile-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
+                <li class="menu-icons-item">
+                    <a class="menu-icons-link link" href="">
+                        <svg class="mobile-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
+                <li class="menu-icons-item">
+                    <a class="menu-icons-link link" href="">
+                        <svg class="mobile-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
                         </svg>
                     </a>
                 </li>
             </ul>
         </div>
-    </div> -->
+    </div>
 </body>
 
 </html>

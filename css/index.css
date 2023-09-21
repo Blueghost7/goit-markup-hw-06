@@ -3,5 +3,8 @@
 @import './utils/visually-hidden.css';
 @import './layout/header.css';
 @import './layout/hero-section.css';
-@import './bkg-image.css';
-@import './layout/advantage-section.css'
+@import './layout/advantage-section.css';
+@import './layout/our-team.css';
+@import './layout/our-portfolio.css';
+@import './layout/footer.css';
+@import './layout/backdrop.css'
