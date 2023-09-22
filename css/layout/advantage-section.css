@@ -60,7 +60,6 @@
 
     .advantages-section-item-title {
         text-align: left;
-        font-size: 20px;
         line-height: 1.2;
     }
 }
@@ -105,5 +104,9 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
+    }
+
+    .advantages-section-item-paragraph {
+        font-weight: 400
     }
 }

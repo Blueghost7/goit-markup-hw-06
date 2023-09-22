@@ -53,17 +53,18 @@
 
 .mobile-menu-backdrop {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     top: 0;
     left: 0;
-    z-index: 999999;
-    width: 100%;
+    width: 320px;
     height: 100%;
-    background-color: rgba(46, 47, 66, 0.40);
-
+    padding: 72px 16px 40px 16px;
+    z-index: 999999;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
+    background-color: #FFF;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -74,16 +75,7 @@
     pointer-events: auto;
 }
 
-.modal-mobile-menu {
-    position: absolute;
-    background-color: #FFF;
-    top: 0;
-    left: 0;
-    width: 320px;
-    height: 100%;
-    padding: 72px 16px 40px 16px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .mobile-menu-btn {
     display: flex;
@@ -120,10 +112,6 @@
     fill: #FFFFFF;
 }
 
-.mobile-menu {
-    margin-bottom: 168px;
-}
-
 .mobile-menu-list {
     display: flex;
     flex-direction: column;
@@ -140,6 +128,10 @@
 
 .current {
     color: #404BBF;
+}
+
+.mobile-menu-contacts-wrapper {
+    margin-top: auto;
 }
 
 .mobile-menu-address {
@@ -160,6 +152,10 @@
     letter-spacing: 0.02em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.colored-tel {
+    color: #4D5AE5;
 }
 
 .mobile-menu-address-link:focus {
